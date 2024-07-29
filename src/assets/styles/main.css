@@ -1,9 +1,16 @@
 :root {
   --app-background: #ffffff;
+  --card-background: #ffffff;
+  --border-color: #4d4d4d;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .page {
   min-height: 100vh;
+  padding: 40px 0;
   background-color: var(--app-background);
 }
 
@@ -15,6 +22,8 @@
 
 .dark-theme {
   --app-background: #1d1d1d;
+  --card-background: #262626;
+  --border-color: #4d4d4d;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 

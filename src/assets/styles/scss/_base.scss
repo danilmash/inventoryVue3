@@ -1,20 +1,29 @@
 :root {
-  --app-background: #ffffff;
+    --app-background: #ffffff;
+    --card-background: #ffffff;
+    --border-color: #4d4d4d;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 .page {
-  min-height: 100vh;
-  background-color: var(--app-background);
+    min-height: 100vh;
+    padding: 40px 0;
+    background-color: var(--app-background);
 }
 
 .wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 // Dark theme styles
 
 .dark-theme {
-  --app-background: #1d1d1d;
+    --app-background: #1d1d1d;
+    --card-background: #262626;
+    --border-color: #4d4d4d;
 }
