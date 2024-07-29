@@ -1,7 +1,11 @@
 <template>
-  <div></div>
+  <div class="dark-theme">
+    <InventoryPage></InventoryPage>
+  </div>
 </template>
 
-<script setup></script>
+<script setup>
+import InventoryPage from "./pages/InventoryPage.vue";
+</script>
 
 <style lang="scss" scoped></style>

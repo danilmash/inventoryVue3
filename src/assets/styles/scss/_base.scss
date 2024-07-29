@@ -1,0 +1,20 @@
+:root {
+  --app-background: #ffffff;
+}
+
+.page {
+  min-height: 100vh;
+  background-color: var(--app-background);
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+// Dark theme styles
+
+.dark-theme {
+  --app-background: #1d1d1d;
+}
